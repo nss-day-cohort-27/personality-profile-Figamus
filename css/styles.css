@@ -5,7 +5,24 @@ body {
     color: white;
 }
 
-.personInfo {
-    display: flex
+#personInfo {
+    display: flex;
+    flex-grow: 1;
+    align-content: space-around;
 }
 
+#general {
+    background-color: white;
+    border: 5px solid grey;
+    color: black
+}
+#similarPeople {
+    background-color: white;
+    border: 5px solid grey;
+    color: black
+}
+#communication {
+    background-color: white;
+    border: 5px solid grey;
+    color: black
+}
